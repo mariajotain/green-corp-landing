@@ -38,9 +38,8 @@ button {
 }
 button:hover{
   background-color:#f6980c;
-  box-shadow: rgba(246 152 12 / 20%);
-  transition:background-color 0.3s;
-  transform: background-color ease-in;
+  box-shadow: 0 16px 36px rgba(246 152 12 / 20%);
+  transition: background-color 0.3s ease-in;
 }
 .about__image {
     width: 500px;
@@ -112,29 +111,23 @@ text-align: left;
 }
 .form label{
   font-size: 18px;
-  font-weight: 600px;
-  margin-bottom: 15px;
+  font-weight: 600;
+  margin-bottom: 20px;
 }
-.form input{
+.form input, .form select{
+  border: none;
+  border-radius: 15px;
+  padding: 0 20px;
+  outline: none;
   font-size: 18px;
   color: #213053;
   height: 60px;
-  padding: 0 20px 0 20px;
-  border-radius: 15px;
-  border: none;
-}
-.form select{
-  font-size: 18px;
-  color: #213053;
-  height: 60px;
-  padding: 0 20px 0 20px;
-  border-radius: 15px;
-  border: none;
+
 }
  
 .form__submit{
   font-size: 18px;
-  font-weight: 600px;
+  font-weight: 600;
   margin-top: 40px;
 }
 
@@ -151,10 +144,10 @@ select {
 }
 .footer__container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 footer {
-  padding: 90px, 20px, 90px, 20px;
+  padding: 90px, 20px;
   font-size: 16px;
   font-weight: 600;
 }
