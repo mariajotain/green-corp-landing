@@ -283,13 +283,13 @@ to { transform: rotate(360deg);}
 
 
 .features {
-  padding:115px 60px;
+  padding: 115px 60px;
   background-color: #fff;
 }
 .features__border {
   width: 100%;
-  margin-top:50px ;
-  margin-bottom:50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
   border: 1px solid #E6EAF4;
 }
 
